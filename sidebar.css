@@ -1,0 +1,28 @@
+.side-section{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 59.5px;
+    width: 72px;
+    z-index: 1000;
+    background-color: white;
+}
+.side-icons{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-size: 10px;
+    height: 74px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.side-icons-img{
+    height: 24px;
+    width: 24px;
+    margin-bottom: 7px;
+    
+}
+.side-icons:hover{
+    background-color: rgb(233, 230, 230);
+}
